@@ -1,0 +1,14 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "30hills test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nenad",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.4.1"
+  }
+}
