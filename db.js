@@ -2,7 +2,7 @@ var MongoClient = require('mongodb').MongoClient;
 
 function findById(id, callback) {
   
-  MongoClient.connect("mongodb+srv://admin-nenad:RxJndzTSnZAiocWN@cluster0-dlyqr.mongodb.net/test?retryWrites=true&w=majority", {useUnifiedTopology: true}, function (err,client) {
+  MongoClient.connect("mongodb+srv://nenad:DicaBoga_2020_mongo@cluster0-dlyqr.mongodb.net/test?retryWrites=true&w=majority", {useUnifiedTopology: true}, function (err,client) {
   //MongoClient.connect("mongodb://localhost:27017", {useUnifiedTopology: true}, function (err,client) {
     if (err) {
       return console.dir(err);
